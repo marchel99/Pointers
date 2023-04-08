@@ -1,28 +1,23 @@
-#include <stdio.h>    
+#include <stdio.h>
 
-int main (){
-int a= 200;
+int main() {
+  int arr[5];
+  int *p;
+  int i;
 
-int *p;
-p=&a;
+  printf("Enter 5 integers: ");
+  for (i = 0; i < 5; i++) {
+    scanf("%d", &arr[i]);
+  }
 
-int **q;
-q=&p;
+  p = arr;
 
-// int *p=&a;
-// RÓWNOZNACZNY Z
-// int *p=&a;
+  printf("\n");
+  for (i = 0; i < 5; i++) {
+    printf("Address of arr[%d]: %p\n", i, p);
+    printf("Value of arr[%d]: %d\n\n", i, *p);
+    p++;
+  }
 
-printf("Adres pointer: %d Adresa %d\n",&p,&a);
-printf("Adres: %d zmiennej %d\n",p,*p);
-printf("200:%d 201:%d\n",*p,*p+1);
-printf("Adres*q:%d **q:%d",q,**q);
-
-
-
-
-
-
-    return 0;
+  return 0;
 }
-
