@@ -11,11 +11,11 @@ As someone who has struggled with C pointers, I hope this repository will serve 
 Folder Structure:
 
     Exercise 1: Pointer Basics
-    Exercise 2: Pointer Arithmetic
-    Exercise 3: Pointers and Arrays
-    Exercise 4: Dynamic Memory Allocation
-    Exercise 5: Pointer to Pointer
-    Exercise 6: Passing Pointers to Functions
+    Exercise 2: Pointer Arithmetic 
+    Exercise 3: Pointer to Pointer
+    Exercise 4: Passing Pointers to Functions
+    Exercise 5: Pointers and Arrays
+    Exercise 6: Dynamic Memory Allocation
     Exercise 7: Linked Lists with Pointers
 
 I hope this repository will be useful for anyone who wants to learn and practice C pointers. Please feel free to fork, modify, and contribute to this repository. Thank you!
