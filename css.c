@@ -6,8 +6,20 @@ int subtract(int a, int b);
 int multiply(int a, int b);
 
 int main() {
-    // define an array of pointers to function
-    int (*func_ptr_array[3])(int, int) = {add, subtract, multiply};
+
+
+ 
+typedef int (*pt)(int,int);
+
+     pt func_ptr_array[3] = {add, subtract, multiply};
+
+
+   // int (*func_ptr_array[3])(int, int) = {add, subtract, multiply};
+   // to samo
+     
+
+    
+
 
     // call functions using the array
     int a = 10, b = 5;
