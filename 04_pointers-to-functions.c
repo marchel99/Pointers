@@ -7,6 +7,7 @@ return a+b;
 
 
 int main (){
+
 double (*addp)(double, double)=add;
 double (*add_pointer)(double,double);
 add_pointer=&add;
