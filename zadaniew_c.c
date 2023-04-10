@@ -8,6 +8,8 @@ float dziel(float a, float b);
 
 
 
+//ds
+
 
 typedef float (*pf)(float, float); // typedef dla wskaźnika na funkcję
 
