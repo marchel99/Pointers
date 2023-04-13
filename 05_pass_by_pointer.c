@@ -10,9 +10,9 @@ void increment(int *num){
 
 int main (){
 int x=10;
-printf("beofre",x);
+printf("before: %d\n",x);
 increment(&x);
-printf("after",x);
+printf("after: %d",x);
 
 
 
