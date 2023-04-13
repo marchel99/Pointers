@@ -1,7 +1,18 @@
 #include <stdio.h>    
 
-int main (){
 
+void increment(int *num){
+*num=*num+1;
+
+}
+
+
+
+int main (){
+int x=10;
+printf("beofre",x);
+increment(&x);
+printf("after",x);
 
 
 
